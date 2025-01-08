@@ -1,0 +1,24 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    display:inline-block;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:grey
+}
+.innerbox{
+    height:200px;
+    width:200px;
+    background-image: url("1.png");
+  
+    filter: grayscale(100%);
+    border-radius: 12px;
+    padding:10px;
+    margin:10px;
+}
